@@ -33,13 +33,13 @@ pygame.dispay.set_caption("Sprite Collision")
 all_sprites = pygame.sprite.Group()
 
 
-sprite1 = Sprite(pygame.Color('black'), 20, 30)
+sprite1 = Sprite(pygame.Color('blue'), 20, 30)
 sprite1.rect.x,sprite1.rect.y = random.randint(
     0, SCREEN_WIDTH - sprite1.rect.width), random.randit(
         0, SCREEN_HIGHT - sprite1.rect.width)
 all_sprites.add(sprite1)
 
-sprite2 = Sprite(pygame.Color('red'), 20, 30)
+sprite2 = Sprite(pygame.Color('black'), 20, 30)
 sprite2.rect.x,sprite2.rect.y = random.randint(
     0, SCREEN_WIDTH - sprite2.rect.width), random.randit(
         0, SCREEN_HIGHT - sprite2.rect.width)
