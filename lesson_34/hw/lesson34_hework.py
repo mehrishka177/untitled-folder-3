@@ -22,7 +22,7 @@ done = False
 clock = pygame.time.Clock()
 
 
-# -------- Main Program Loop -----------
+
 while not done:
     # --- Main event loop
     for event in pygame.event.get():
