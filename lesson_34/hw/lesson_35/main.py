@@ -51,6 +51,12 @@ sp1.rect.x = random.randit(0, 480)
 sp1.rect.y = random.randit(0, 370)
 all_spritles_list.add(sp1)
 
+all_sprites_list = pygame.sprite.Group()
+sp2 = Sprite(BLUE, 20, 30)
+sp2.rect.x = random.randit(0, 480)
+sp2.rect.y = random.randit(0, 370)
+all_spritles_list.add(sp2)
+
 screen = pygame.display.set_mode((500, 400))
 pygame.display.set_caption("Boundary Sprite")
 bg_color = BLUE
